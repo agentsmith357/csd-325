@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="1365" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="548.25" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="u06Yu5VUsubF3EjdB0h3-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610.9950000000001" y="182.8280000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="551" y="1460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u06Yu5VUsubF3EjdB0h3-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610.25" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u06Yu5VUsubF3EjdB0h3-56" value="open CSV file and read header" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="530.25" y="200" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BAH1VFfLByZ1M-3y6Qb9-42" target="BAH1VFfLByZ1M-3y6Qb9-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-42" value="loop over and parse date and high temperature in row 6 (index 5)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="528.25" y="414" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BAH1VFfLByZ1M-3y6Qb9-43" target="BAH1VFfLByZ1M-3y6Qb9-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-43" value="store dates and highs to array (highs[])" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="528.75" y="640" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BAH1VFfLByZ1M-3y6Qb9-46" target="BAH1VFfLByZ1M-3y6Qb9-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-46" value="plot high temps in red" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="528.25" y="850" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BAH1VFfLByZ1M-3y6Qb9-48" target="BAH1VFfLByZ1M-3y6Qb9-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-48" value="format plot title, labels, and ticks" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530.25" y="1050" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-49" value="display plot with plt.show()" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="531" y="1241" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BAH1VFfLByZ1M-3y6Qb9-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BAH1VFfLByZ1M-3y6Qb9-49" target="40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
