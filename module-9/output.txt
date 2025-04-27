@@ -1,0 +1,21 @@
+Response Code: 200
+Number of people: 12
+People in space:
+Oleg Kononenko is on the ISS
+Nikolai Chub is on the ISS
+Tracy Caldwell Dyson is on the ISS
+Matthew Dominick is on the ISS
+Michael Barratt is on the ISS
+Jeanette Epps is on the ISS
+Alexander Grebenkin is on the ISS
+Butch Wilmore is on the ISS
+Sunita Williams is on the ISS
+Li Guangsu is on the Tiangong
+Li Cong is on the Tiangong
+Ye Guangfu is on the Tiangong
+
+Response Code: 200
+Title: IC 418: The Spirograph Nebula
+Date: 2025-04-27
+Explanation: What is creating the strange texture of IC 418?  Dubbed the Spirograph Nebula for its resemblance to drawings from a cyclical drawing tool, planetary nebula IC 418 shows patterns that are not well understood. Perhaps they are related to chaotic winds from the variable central star, which changes brightness unpredictably in just a few hours.  By contrast, evidence indicates that only a few million years ago, IC 418 was probably a well-understood star similar to our Sun.  Only a few thousand years ago, IC 418 was probably a common red giant star.  Since running out of nuclear fuel, though, the outer envelope has begun expanding outward leaving a hot remnant core destined to become a white-dwarf star, visible in the image center. The light from the central core excites surrounding atoms in the nebula causing them to glow. IC 418 lies about 2000 light-years away and spans 0.3 light-years across.  This false-color image taken from the Hubble Space Telescope reveals the unusual details.
+URL: https://apod.nasa.gov/apod/image/2504/Spirograph_Hubble_960.jpg
