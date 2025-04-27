@@ -1,0 +1,28 @@
+name: Check Secrets
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+
+jobs:
+  check_secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Check for .env files and secrets
+        run: |
+          echo "Checking for .env files and hardcoded secrets..."
+          # Find any .env files
+          if find . -name "*.env" | grep .; then
+            echo ".env files detected!"
+            exit 1
+          fi
+          # Search for common secret patterns (API keys, tokens, passwords)
+          if grep -riE '(PASSWORD|TOKEN)' .; then
+            echo "Possible secrets found!"
+          else
+            echo "No obvious secrets found."
+          fi
